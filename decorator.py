@@ -4,7 +4,7 @@ def magic_box(func):
         func()
     return wrapper
 
-@magic_box
+@magic_box # dcecorator function, runs magic_box
 def say_hello():
     print("Hello!")
 

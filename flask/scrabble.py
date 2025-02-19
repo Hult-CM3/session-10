@@ -17,3 +17,6 @@ def scrabble_score(word):
     for char in word:
         score += letterscores.get(char, 0)
     return str(score)
+
+if __name__ == "__main__":
+    app.run(debug=True)
